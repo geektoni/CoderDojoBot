@@ -62,7 +62,7 @@ class CoderDojoBot(telepot.helper.ChatHandler):
         self.gameOn = True
         self.regenValues()
         self.sender.sendMessage("The game will begin now!")
-        self.choosen_word = 'cazzomene'#list(self.generateWord())
+        self.choosen_word = #list(self.generateWord())
         for i in range(0,len(self.choosen_word)):
             self.hiddenWord.append("_")
 
